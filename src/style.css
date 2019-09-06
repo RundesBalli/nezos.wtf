@@ -1,0 +1,89 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background: #161618;
+  color: #f2f5f4;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+*:focus {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 15px auto 0px;
+  flex: none;
+}
+
+#header img {
+  max-height: 300px;
+  height: 50vh;
+}
+
+#main {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: 15vh auto 10vh;
+  font-size: 10vh;
+  color: #f2f5f4;
+  flex: auto;
+}
+
+#main div {
+  display: inline-block;
+}
+
+#footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto 15px;
+  flex: none;
+}
+
+#footer div {
+  display: block;
+  margin: 1vh 0px;
+}
+
+.imprint {
+  font-size: 1vh;
+  color: #444444;
+}
+
+.imprint a {
+  text-decoration: underline;
+  color: #444444;
+}
+
+.binary {
+  color: transparent;
+}
+
+.heart::after {
+  color: #c52b2f;
+  content: "\2764";
+}
+
+.icon {
+  height: 10vh;
+}
+
+.fill {
+  fill: #f2f5f4;
+}
