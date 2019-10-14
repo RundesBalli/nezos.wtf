@@ -61,6 +61,15 @@ a {
   margin: 1vh 0px;
 }
 
+.note a {
+  color: #75c0c7;
+  text-decoration: none;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}
+
 .imprint {
   font-size: 1vh;
   color: #444444;
